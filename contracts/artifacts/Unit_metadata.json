@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -17,26 +17,6 @@
 				"name": "incInt8",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incmyInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -92,9 +72,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exam_unit.sol": "Unit"
+			"contracts/exam_wrapAround.sol": "Unit"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -106,12 +86,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exam_unit.sol": {
-			"keccak256": "0xad0ba74d494926ab85467806611113525e8bcd5d04251c5337e57bd2f121c9ea",
-			"license": "GPL-3.0",
+		"contracts/exam_wrapAround.sol": {
+			"keccak256": "0x6af1ea950f536bf1f00c921d80146b36a40e23fe0ebf679dcf1dcc46deee61ef",
 			"urls": [
-				"bzz-raw://42458ecaedee84cc22590bbcdd98d6c2f37371620a4638b37f9581d64fb9ecad",
-				"dweb:/ipfs/Qmamq834aci9sPKs8muaF6yJ5QvGqcYkUbsRbQDx9cn87d"
+				"bzz-raw://b1f106e4602451f3a053f34200a7a611cf7103204f4d7f3ba683ca9dc447e1b5",
+				"dweb:/ipfs/QmPbAc8TnFBYdeg1iRzZqMnRbJVAFHXXxiwHZ3XNuxM7uX"
 			]
 		}
 	},
