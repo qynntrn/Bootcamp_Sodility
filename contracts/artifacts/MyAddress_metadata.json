@@ -20,26 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getBanlance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_a",
-						"type": "address"
-					}
-				],
-				"name": "setAddress",
+				"name": "updateAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exam_address.sol": "MyAddress"
+			"contracts/exam_msgSender.sol": "MyAddress"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exam_address.sol": {
-			"keccak256": "0x09f10863a4831accce68f3f2b744ddf5443b17c7a9e6e09048acb985b5bf619e",
+		"contracts/exam_msgSender.sol": {
+			"keccak256": "0x54bd3d1720e628b7586688c16c0b2159c7aa317746e5e4606122a39befe093be",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9ee69f5cae9f0b64cfd48b0d82e478f7009fe8e5ba5a102b0b2ff988e309c804",
-				"dweb:/ipfs/Qmeu9EW5vtiJtM7atmkxbFSVPJUcb7H1HjscprKsWbdTH1"
+				"bzz-raw://10b69d073f535a8317b96888b1997c544cff078084562735d4aa0b974f352f32",
+				"dweb:/ipfs/QmWW3kwF6VisH1G6izCNMAzdMYQTTL4nw6Jy22ge51ysdc"
 			]
 		}
 	},
