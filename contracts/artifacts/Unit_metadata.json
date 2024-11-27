@@ -21,6 +21,26 @@
 			},
 			{
 				"inputs": [],
+				"name": "incmyInt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myInt256",
 				"outputs": [
 					{
@@ -72,7 +92,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exam_wrapAround.sol": "Unit"
+			"contracts/exam_unit.sol": "Unit"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -86,11 +106,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exam_wrapAround.sol": {
-			"keccak256": "0x6af1ea950f536bf1f00c921d80146b36a40e23fe0ebf679dcf1dcc46deee61ef",
+		"contracts/exam_unit.sol": {
+			"keccak256": "0xad0ba74d494926ab85467806611113525e8bcd5d04251c5337e57bd2f121c9ea",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b1f106e4602451f3a053f34200a7a611cf7103204f4d7f3ba683ca9dc447e1b5",
-				"dweb:/ipfs/QmPbAc8TnFBYdeg1iRzZqMnRbJVAFHXXxiwHZ3XNuxM7uX"
+				"bzz-raw://42458ecaedee84cc22590bbcdd98d6c2f37371620a4638b37f9581d64fb9ecad",
+				"dweb:/ipfs/Qmamq834aci9sPKs8muaF6yJ5QvGqcYkUbsRbQDx9cn87d"
 			]
 		}
 	},
