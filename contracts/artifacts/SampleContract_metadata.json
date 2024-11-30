@@ -28,7 +28,7 @@
 				],
 				"name": "setString",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/SampleContract.sol": {
-			"keccak256": "0x020e78879ee92f1be81a9c1d1ff7b160debbfb0c72f54dc15d27ce84088dcc8f",
+			"keccak256": "0xf960ccbcc14836b6e0b3c462de5809539a1f73da1ae6e15cb985022fde3f5572",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e84510f9ea04508db7dd7b5a0438d657a42c8e7d3ea0243efd8f4fa8e0c93e26",
-				"dweb:/ipfs/QmVgnsTnRHxPhv16TrzaZuAq38bLs96Mk5rotGia7CMMU8"
+				"bzz-raw://92b0ee4946353d39eff984bf2b280b2f32562a58853c1c55035f44e311eae1b8",
+				"dweb:/ipfs/QmUpnjtVFgY71aQXVNMqhEyGeq5teb3GGCXPQWCXt4K3qu"
 			]
 		}
 	},
