@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartMoney.sol": "SendWW"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartMoney.sol": {
+			"keccak256": "0xc3d36a6f7980a816b2ccf0472ce1cc72e2b5d5bf8824d36afffb4e7036c76788",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://832f4f53b00ab1b101becd72ed7d070d6c3704daede8c2f0627aed70c2faffe4",
+				"dweb:/ipfs/QmVj2guMYT5vHJX1bqzY7oAiQ24LAjDd3ydGoiiQeTTS9s"
+			]
+		}
+	},
+	"version": 1
+}
